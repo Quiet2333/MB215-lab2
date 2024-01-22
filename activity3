@@ -1,0 +1,7 @@
+string1 = input("Enter the first part of the sentence: ")
+string2 = input("Enter the second part of the sentence: ")
+string3 = input("Enter the third part of the sentence: ")## Take three different strings from the user
+
+full_sentence = string1 + " " + string2 + " " + string3# Concatenate them into a full sentence
+
+print("The full sentence is:", full_sentence)# Print out the result

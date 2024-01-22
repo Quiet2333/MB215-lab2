@@ -1,0 +1,33 @@
+a = float(input("Enter the first number (a): "))
+b = float(input("Enter the second number (b): "))# Accept two float numbers from the user
+
+addition = a + b
+print(f"Addition of a and b: {addition}")
+
+subtraction = a - b
+print(f"Subtraction of b from a: {subtraction}")
+
+multiplication = a * b
+print(f"Multiplication of a and b: {multiplication}")
+# Ensure b is not zero to avoid division by zero error
+if b != 0:
+    division = a / b
+    print(f"Division of a by b: {division}")
+else:
+    print("Cannot divide by zero.")
+
+# 5. Integer Division
+if b != 0:
+    integer_division = a // b
+    print(f"Integer Division of a by b: {integer_division}")
+else:
+    print("Cannot perform integer division by zero.")
+
+# 6. Remainder
+if b != 0:
+    remainder = a % b
+    print(f"Remainder when a is divided by b: {remainder}")
+else:
+    print("Cannot find remainder with division by zero.")
+    exponent = a ** b
+print(f"a raised to the power of b: {exponent}")

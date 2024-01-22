@@ -1,0 +1,8 @@
+print("Gross Pay Calculator")
+hours_worked = float(input("Please enter the hours worked: "))# Input the hours worked
+pay_rate = float(input("Please enter the hourly pay rate: "))# Input the hourly pay rate
+gross_pay = hours_worked * pay_rate# Calculate gross pay as hours worked multiplied by pay rate
+print(f"The gross pay is: ${gross_pay:.2f}")# Display the gross pay
+print("Calculation completed.")# End of the program
+
+
